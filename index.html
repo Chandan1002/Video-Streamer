@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+
+ <head>
+  <link rel="stylesheet" href="./bootstrap-4.3.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style/style.css">
+  
+  <script type="text/javascript" src="./bootstrap-4.3.1/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./scripts/script.js"></script>
+ </head>
+
+<body>
+
+  <div class="container">
+
+  <div class="row buffer">
+    </div>
+
+    <header>
+      <nav class="nav nav-pills flex-column flex-sm-row">
+        <a class="flex-sm-fill text-sm-center nav-link" href="#">Cam 1</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="#">Cam 2</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="#">Cam 3</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="#">Cam 4</a>
+      </nav>
+    </header>
+
+    <div class="row buffer">
+    </div>
+    
+    <div class="row">
+      <div class="col-6 frame-container">
+        <iframe src="http://192.168.140.91/mjpg/video.mjpg" 
+          frameborder="0" allow="autoplay; encrypted-media"> </iframe>
+       </div>
+      <div class="col-6 frame-container">
+        <iframe src="http://192.168.140.92/mjpg/video.mjpg" 
+       frameborder="0" allow="autoplay; encrypted-media"> </iframe>
+      </div>
+    </div>
+
+    <div class="row buffer">
+    </div>
+
+    <div class="row">
+      <div class="col-6 frame-container">
+        <iframe src="http://192.168.140.93/mjpg/video.mjpg" 
+       frameborder="0" allow="autoplay; encrypted-media"> </iframe>
+       </div>
+      <div class="col-6">col-4</div>
+    </div>
+  
+  </div>
+  	
+
+  </body>
+
+
+
+</HTML>

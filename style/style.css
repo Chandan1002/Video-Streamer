@@ -1,0 +1,39 @@
+html, body { height: 100%; padding: 0; margin: 0; }
+
+/*div { width: 45%; height: 45%; float: left; padding: 1em; border: 2px solid #000 }
+
+#div1 { background: #DDD; }
+#div2 { background: #AAA; }
+#div3 { background: #777; }
+#div4 { background: #444; }*/
+
+iframe{
+	width:100%;
+	height: 100%;
+	top:0;
+	left:0;
+	display: block;
+}
+
+.frame-container {
+	height:350px;
+}
+.buffer {
+	height: 25px;
+}
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
