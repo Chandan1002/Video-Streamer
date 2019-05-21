@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>One Page Wonder - Start Bootstrap Template</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/one-page-wonder.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+        <div class="container">
+            <a class="navbar-brand" href="/">Start Bootstrap</a>
+        </div>
+    </nav>
+    <section class="full-height">
+        <div class="container full-height">
+            <div class="row align-items-center full-height full-width">
+                <div class="col-lg-12 order-lg-2 full-height">
+                    <div id="divCamFeed" class="full-height d-none">
+                        <!--here goes the iframe-->
+                        <iframe src="http://192.168.140.91/mjpg/video.mjpg" 
+          frameborder="0" allow="autoplay; encrypted-media"> </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="py-3 bg-black">
+        <div class="container">
+            <p class="m-0 text-center text-white small">Copyright &copy; ISU Lab 2019</p>
+        </div>
+    </footer>
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Enter a device name</h4>
+                </div>
+                <div class="modal-body">
+                    <input type="text" class="form-control" id="txtDeviceName" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" onclick="saveDeviceId()">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>    >
+    <script src="js/js.cookie.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
